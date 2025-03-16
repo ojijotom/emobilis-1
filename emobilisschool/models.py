@@ -5,7 +5,7 @@ class Students(models.Model):
     name=models.CharField(max_length=50)
     adm=models.IntegerField()
     date=models.DateField()
-    form=models.Charfield(max_length=50)
+    form=models.CharField(max_length=50)
 
 
 

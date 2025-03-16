@@ -26,4 +26,7 @@ def trainers(request):
     return render(request, 'trainers.html')
 
 def starter_page(request):
-    return render(request, 'starter_page.html')
+    return render(request, 'starter-page.html')
+
+def show(request):
+    return render(request, 'show.html')
